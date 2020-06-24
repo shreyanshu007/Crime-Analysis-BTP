@@ -1,0 +1,300 @@
+======== Log written on 2020-05-06 14:02:46.706494========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:06:07.739215========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:09:32.262722========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:22:24.564829========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:26:01.168685========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:29:23.579886========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:32:44.993657========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:32:57.272816========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:33:07.299750========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:33:19.494841========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:33:24.928285========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:36:46.203429========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:40:08.579531========
+Error while accessing DB table: NewsArticles
+name 'articleId' is not defined======================== End of error ====================
+
+======== Log written on 2020-05-06 14:49:22.713251========
+Error while accessing DB table: NewsArticles
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'New Delhi\': "\'LOCATION\'", \'Nikhil Handa\': "\'PERSON\'", \'Delhi\': "\'LOCATION\'", \'D\' at line 1')======================== End of error ====================
+
+======== Log written on 2020-05-06 14:52:47.405338========
+Error while accessing DB table: NewsArticles
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'New Delhi\': "\'LOCATION\'", \'Krishna\': "\'PERSON\'", \'James Bond\': "\'PERSON\'", \'Del\' at line 1')======================== End of error ====================
+
+======== Log written on 2020-05-06 14:56:11.860162========
+Error while accessing DB table: NewsArticles
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'HC\': "\'LOCATION\'", \'CHENNAI\': "\'LOCATION\'", \'State Bank of India\': "\'ORGANIZATI\' at line 1')======================== End of error ====================
+
+======== Log written on 2020-05-06 14:59:38.019781========
+Error while accessing DB table: NewsArticles
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'Chennai\': "\'LOCATION\'", \'Basha\': "\'PERSON\'", \'Parthasarathy\': "\'LOCATION\'", \'Tr\' at line 1')======================== End of error ====================
+
+======== Log written on 2020-05-06 15:03:04.235898========
+Error while accessing DB table: NewsArticles
+(1064, 'You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near \'\'Chennai\': "\'LOCATION\'", \'M K Stalin\': "\'PERSON\'", \'Stalin\': "\'PERSON\'", \'K A Se\' at line 1')======================== End of error ====================
+
+======== Log written on 2020-05-06 15:08:39.490062========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:12:01.438970========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:15:24.870306========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:18:54.366557========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:22:18.757416========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:25:44.933914========
+Error while accessing DB table: NewsArticles
+'dict' object has no attribute 'replace'======================== End of error ====================
+
+======== Log written on 2020-05-06 15:33:04.593082========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:36:29.222700========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:39:55.473805========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:40:06.843958========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:40:18.232295========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:40:29.809148========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:40:40.941033========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:40:51.266363========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:41:02.509447========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:41:13.495625========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:41:25.056510========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:41:36.380033========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:41:47.861450========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:42:00.272909========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:42:12.147866========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:42:24.769395========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:42:36.927723========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:42:49.035221========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:43:00.875612========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:43:18.043584========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:43:30.644345========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:43:44.390637========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:43:57.770011========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:09.686696========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:20.835915========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:29.864209========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:39.212828========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:49.514091========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:44:59.687818========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:45:09.614811========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:45:19.226128========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:48:43.729064========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:52:10.175991========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:55:36.488487========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 15:59:01.611755========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:02:27.344647========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:02:30.279737========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:05:55.147443========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:09:19.750563========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:12:44.954928========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:16:11.121797========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:16:14.211248========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:16:17.358420========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:19:43.389551========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:23:12.201594========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:26:39.346733========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:30:06.695453========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:33:34.634660========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:37:02.688412========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:40:32.205887========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
+======== Log written on 2020-05-06 16:44:01.388238========
+Error while accessing DB table: NewsArticles
+(1054, "Unknown column 'entities_dict' in 'field list'")======================== End of error ====================
+
