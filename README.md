@@ -4,9 +4,7 @@
 In order to run the framework, first prepare your python virtualenv and download the required modules.
 Use following commands to create virtual env. and download required modules.
 
-***Commands are specific to CentOS, commands which doesn't works for your system you can find similar commands for them on internet. 
---
-
+*Commands are specific to CentOS, commands which doesn't works for your system you can find similar commands for them on internet. 
 1. Create virtual env.
 
 		$ python3.7 -m venv env_name
@@ -40,8 +38,9 @@ Run the run.sh file in the Crime-Analysis-BTP folder.
 	
 	$ ./run.sh
 
-***run this file from Crime-Analysis-BTP only, if you aim to run this file from another folder then change the line no. 9 and 11 in run.sh file. Instead of part1.py make them the {absolute_path_to_part1.py}/part1.py
---
+*run this file from Crime-Analysis-BTP only, if you aim to run this file from another folder then change the line no. 9 and 11 in run.sh file. Instead of part1.py make them the {absolute_path_to_part1.py}/part1.py
+
+
 Apart from this, One more dependency is there, and it is Stanford Taggers.
 There are three stanford zip files that needed to be downloaded from here: https://nlp.stanford.edu/software/
 Names are:
