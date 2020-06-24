@@ -2,7 +2,9 @@ import flask
 from flask import request, jsonify, render_template
 import pymysql
 import sys
-sys.path.append('/home/2016CSB1059/BTP')
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(f)
 from part2 import unknownLocationCrimeInfo
 
 app = flask.Flask(__name__)

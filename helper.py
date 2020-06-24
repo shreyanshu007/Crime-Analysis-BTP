@@ -11,8 +11,9 @@ import sys
 import math
 from datetime import datetime
 from APIs import LocationIQ
-
-db_logfile  = '/home/2016CSB1059/BTP/logs/db_logfile.log'
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+db_logfile  = f + '/logs/db_logfile.log'
 
 
 # Takes the Raw Crime Score and returns the normalized Crime Score, also update the Max Crime Score if required.

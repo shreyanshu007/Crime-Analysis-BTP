@@ -8,7 +8,10 @@ import nltk
 from datetime import datetime, timedelta
 from dateutil.rrule import rrule, MONTHLY
 import sys
-sys.path.append('/home/2016CSB1059/BTP/')
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+ind = f.rfind('/')
+sys.path.append(f[:ind+1])
 import CrimeClassification.MainCrimeClassifier as fileCrimeClassify
 from LocationExtraction import locationExtraction as le
 from DuplicateDetection.simhash import simhash

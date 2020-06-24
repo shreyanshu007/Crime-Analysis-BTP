@@ -10,12 +10,14 @@
 import helper
 import pymysql
 import sys
-sys.path.append('/home/2016CSB1059/BTP')
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(f)
 from DuplicateDetection.duplicateDetection import DuplicateDetection
 
 from nltk import word_tokenize
 
-db_logfile  = '/home/2016CSB1059/BTP/logs/db_logfile.log'
+db_logfile  = f + '/logs/db_logfile.log'
 
 
 def addDuplicateReference(articleId, dup_ref):

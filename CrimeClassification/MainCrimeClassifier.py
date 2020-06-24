@@ -12,7 +12,7 @@ from nltk.stem import PorterStemmer
 from gensim.utils import simple_preprocess
 from gensim.parsing.preprocessing import STOPWORDS
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
-
+import os
 
 
 # Required text file "CrimePhrase.txt"
@@ -80,7 +80,9 @@ crimeLable = ['Harrasment', 'Molest', 'Rape', 'Assault', 'Murder', 'Suicide', 'A
 
 
 CrimePhrasesDict = {}
-with open("/home/2016CSB1059/BTP/CrimeClassification/CrimePhrases.txt", "r+") as file:
+f = os.path.dirname(os.path.abspath(__file__))
+ind = f.rfind('/')
+with open(f[:ind] + "/CrimeClassification/CrimePhrases.txt", "r+") as file:
 	for word in file.read().split('\n'):
 		processed_word = STEM.stem(word.lower())
 		for syn in wordnet.synsets(word):

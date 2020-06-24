@@ -21,8 +21,10 @@ import helper
 import part4
 import part6
 
-article_logfile = '/home/2016CSB1059/BTP/logs/article_logfile.log'
-db_logfile      = '/home/2016CSB1059/BTP/logs/db_logfile.log'
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+article_logfile = f + '/logs/article_logfile.log'
+db_logfile      = f + '/logs/db_logfile.log'
 
 # Fetches all the articles from the DB
 def fetchAllArticles(startID, endID):
@@ -64,7 +66,7 @@ def startSystemTrigger():
 		if not articles:
 			break
 		print("ashdjdgs")
-		frs = open('/home/2016CSB1059/BTP/logs/framework_running_status.log','a')
+		frs = open(f + '/logs/framework_running_status.log','a')
 		frs.write("===========================Starting batch: " + str(batch) + "===============================\n")
 		frs.close()
 		for i,article in enumerate(articles):
@@ -74,7 +76,7 @@ def startSystemTrigger():
 			# 	# if not duplicate proceed with further processing
 			# 	print("article ", article[0], " is not duplicate and is sent for processing")
 			if i%5000 == 0:
-				frs = open('/home/2016CSB1059/BTP/logs/framework_running_status.log','a')
+				frs = open(f + '/logs/framework_running_status.log','a')
 				frs.write("No. of articles processed: " + str(start + i) + "\n")
 				frs.close()
 			#try:
@@ -93,7 +95,7 @@ def startSystemTrigger():
 		start += 50000
 		end   += 50000
 		batch += 1
-		frs = open('/home/2016CSB1059/BTP/logs/framework_running_status.log','a')
+		frs = open(f + '/logs/framework_running_status.log','a')
 		frs.write("===========================================================================\n")
 		frs.close()
 			# else:

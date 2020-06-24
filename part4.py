@@ -17,19 +17,20 @@ import pymysql
 import math
 import csv
 import sys
-
+import os
 import helper
 import part6
 
-sys.path.append('/home/2016CSB1059/BTP')
+f = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(f)
 from APIs import SpellCheck, LocationIQ
 from nltk.tag import StanfordNERTagger
 st = StanfordNERTagger('english.all.3class.distsim.crf.ser.gz') # doctest: +SKIP
 
-db_logfile  = '/home/2016CSB1059/BTP/logs/db_logfile.log'
+db_logfile  = f + '/logs/db_logfile.log'
 
 # Reads the weights of different crimes and stores the value in mydict dictionary
-with open('/home/2016CSB1059/BTP/CrimeClassification/CrimeScoreDict.csv') as csv_file:
+with open(f + '/CrimeClassification/CrimeScoreDict.csv') as csv_file:
 	reader = csv.reader(csv_file)
 	mydict = dict(reader)
 

@@ -13,7 +13,7 @@ from nltk import word_tokenize, pos_tag, ne_chunk, sent_tokenize
 from nltk import RegexpParser
 from nltk import Tree
 import pandas as pd
-import CityList
+
 from nltk.corpus import wordnet
 import operator
 from collections import Counter 
@@ -37,7 +37,9 @@ COMMON_PRECEEDING_LIST = ['in', 'from', 'at', 'near', 'around', 'central', 'east
 # SUCCEEDING_LIST = ['police', 'cop']
 
 
-def returnCrimeWordScores(filename="/home/2016CSB1059/BTP/CrimeClassification/CrimePhrases.txt"):
+f = os.path.dirname(os.path.abspath(__file__))
+ind = f.rfind('/')
+def returnCrimeWordScores(filename=f[:ind] + "/CrimeClassification/CrimePhrases.txt"):
 	'''
 		To extract all crime words stored in given text file.
 		input: filename - name of file containing crime words each line
@@ -56,9 +58,8 @@ def returnCrimeWordScores(filename="/home/2016CSB1059/BTP/CrimeClassification/Cr
 
 	return CrimePhrasesDict
 
-f = os.path.dirname(os.path.abspath(__file__))
-ind = f.rfind('/')
-crimeWordScore = returnCrimeWordScores(f[:ind] + "/CrimeClassification/CrimePhrases.txt")
+
+crimeWordScore = returnCrimeWordScores()
 CRIME_WORD_STEM_LIST = [word for word in crimeWordScore.keys()]
 
 

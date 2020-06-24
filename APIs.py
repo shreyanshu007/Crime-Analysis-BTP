@@ -1,4 +1,4 @@
-#!/home/2016CSB1059/Crime_analysis/SummerProject/bin/python
+#!/home/2016CSB1059/project_env/bin/python
 
 '''import for python library'''
 import requests
@@ -10,8 +10,9 @@ import pymysql
 import sys
 import time
 '''adding path to import modules from appended location'''
-sys.path.append('/home/2016CSB1059/BTP/LocationExtraction/')
-sys.path.append('/home/2016CSB1059/BTP/')
+import os
+f = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(f)
 '''Following modules from above appended path.....'''
 #import locationExtraction as le
 #import main
@@ -19,8 +20,8 @@ sys.path.append('/home/2016CSB1059/BTP/')
 '''
 	Files names to add logs to 
 '''
-api_logfile = '/home/2016CSB1059/BTP/logs/api_logfile.log'
-db_logfile  = '/home/2016CSB1059/BTP/logs/db_logfile.log'
+api_logfile = f + '/logs/api_logfile.log'
+db_logfile  = f + '/logs/db_logfile.log'
 
 
 '''
